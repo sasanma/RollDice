@@ -14,9 +14,13 @@ canvas {
     position: absolute;
     width: 40vw;
     height: 10vh;
-    top: 80%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2em;
     font-weight: bold;
+    background-color: #ffffff;
+    border: solid 3px;
+    border-radius: 8px;
+    cursor: pointer;
 }

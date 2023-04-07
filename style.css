@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    background-image: -moz-radial-gradient(#74ee48, 85%, #ffffff);
+    background-image: -webkit-radial-gradient(#74ee48, 85%, #ffffff);
+    background-image: radial-gradient(#74ee48, 85%, #ffffff);
+}
+
+#roll {
+    position: absolute;
+    width: 40vw;
+    height: 10vh;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-weight: bold;
+}
